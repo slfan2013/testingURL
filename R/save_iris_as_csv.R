@@ -1,3 +1,4 @@
 save_iris_as_csv = function(){
-  write.csv(iris,"iris.csv")
+  data(iris)
+  save(iris, file = "test.RData")
 }
